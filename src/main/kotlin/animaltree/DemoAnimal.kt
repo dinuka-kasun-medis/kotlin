@@ -1,6 +1,6 @@
 package animaltree
 
-fun main(array: Array<String>){
+fun main() {
     val animals = arrayOf(Hippo(), Wolf())
     for (item in animals){
         item.roam()
